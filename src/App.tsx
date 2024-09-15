@@ -14,8 +14,8 @@ const SocialLink = ({ href, label }: { href: string; label: string }) => {
 const App = () => {
   return (
     <main className="flex items-center flex-col">
-      <img src={logo} alt="Charsibel logo" />
-      <div className="flex flex-col items-center justify-center gap-4 py-10 w-1/2">
+      <img src={logo} className="p-8" alt="Charsibel logo" />
+      <div className="flex flex-col items-center justify-center gap-4 w-3/4 max-w-sm">
         <SocialLink href="mailto:hello@charsibel.com" label="Email" />
         <SocialLink href="https://twitch.tv/charsibel" label="Twitch" />
         <SocialLink
