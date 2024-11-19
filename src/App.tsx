@@ -6,7 +6,7 @@ const SocialLink = ({ href, label }: { href: string; label: string }) => {
       href={href}
       target="_blank"
       rel="noreferrer"
-      className="inline-flex h-12 items-center justify-center w-full rounded-lg bg-background font-bold text-primary transition-all duration-100 [box-shadow:5px_5px_rgb(255_149_147)] active:translate-x-[3px] active:translate-y-[3px] active:[box-shadow:0px_0px_rgb(255_149_147)]"
+      className="content-center text-center h-12 w-full rounded-lg bg-background font-bold text-primary transition-all duration-100 [box-shadow:5px_5px_rgb(255_149_147)] active:translate-x-[3px] active:translate-y-[3px] active:[box-shadow:0px_0px_rgb(255_149_147)]"
     >
       {label}
     </a>
