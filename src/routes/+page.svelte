@@ -13,11 +13,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 2rem;
+    padding: 1rem;
     gap: 2rem;
   }
 
   .logo {
+    display: block;
     max-width: 100%;
   }
 </style>
