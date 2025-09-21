@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./src/assets/logo.png" alt="Project Logo" />
+  <img src="./src/lib/assets/logo.png" alt="Project Logo" />
 </p>
 
 A Linktree-style landing page for Twitch streamer [Charsibel](https://twitch.tv/charsibel).
@@ -7,9 +7,7 @@ A Linktree-style landing page for Twitch streamer [Charsibel](https://twitch.tv/
 ## Technologies
 
 - [Vite](https://vitejs.dev/)
-- [React](https://reactjs.org/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
+- [SvelteKit](https://svelte.dev/)
 
 ## Installation
 
@@ -28,7 +26,7 @@ A Linktree-style landing page for Twitch streamer [Charsibel](https://twitch.tv/
 3. Install dependencies:
 
    ```sh
-   npm install
+   bun install
    ```
 
 ## Usage
@@ -36,13 +34,13 @@ A Linktree-style landing page for Twitch streamer [Charsibel](https://twitch.tv/
 To run the development server:
 
 ```sh
-npm run dev
+bun dev
 ```
 
 To build for production:
 
 ```sh
-npm run build
+bun build
 ```
 
 ## Contributing
