@@ -34,13 +34,13 @@ A Linktree-style landing page for Twitch streamer [Charsibel](https://twitch.tv/
 To run the development server:
 
 ```sh
-bun dev
+bun run dev
 ```
 
 To build for production:
 
 ```sh
-bun build
+bun run build
 ```
 
 ## Contributing
