@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./src/lib/assets/logo.png" alt="Project Logo" />
+  <img src="./static/logo.png" alt="Project Logo" />
 </p>
 
 A Linktree-style landing page for Twitch streamer [Charsibel](https://twitch.tv/charsibel).
