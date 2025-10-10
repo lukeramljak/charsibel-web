@@ -1,52 +1,60 @@
 <!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta property="og:title" content="Charsibel" />
+    <meta
+      property="og:image"
+      content="https://static-cdn.jtvnw.net/jtv_user_pictures/b71d99c7-5871-4e34-b5aa-9cd88d4878bf-profile_banner-480.png" />
+    <meta property="og:url" content="https://charsibel.com" />
+    <link
+      rel="preload"
+      as="image"
+      href="/bg-desktop.png"
+      media="(min-width: 768px)" />
+    <link rel="preload" as="image" href="/logo.png" />
+    <link rel="icon" href="/favicon.png" />
+    <title>Charsibel</title>
+    %sveltekit.head%
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <meta property="og:title" content="Charsibel" />
-  <meta property="og:image" content="https://static-cdn.jtvnw.net/jtv_user_pictures/b71d99c7-5871-4e34-b5aa-9cd88d4878bf-profile_banner-480.png" />
-  <meta property="og:url" content="https://charsibel.com" />
-  <link rel="preload" as="image" href="/bg-desktop.png" media="(min-width: 768px)" />
-  <link rel="preload" as="image" href="/bg-mobile.png" media="(max-width: 767px)" />
-  <link rel="preload" as="image" href="/logo.png" />
-  <link rel="icon" href="/favicon.png" />
-  <title>Charsibel</title>
-  %sveltekit.head%
-
-  <style>
-    :root {
-      --background: hsl(18 100% 97%);
-      --foreground: hsl(0 0% 3.9%);
-      --primary: hsl(1 100% 79%);
-      --secondary: hsl(1 100% 85%);
-      --radius: 0.5rem;
-    }
-
-    body {
-      height: 100dvh;
-      padding: 0;
-      margin: 0;
-      color: var(--foreground);
-      font-family: system-ui, sans-serif;
-      background-image: url("/bg-mobile.png");
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-color: var(--secondary);
-    }
-
-    @media (min-width: 768px) {
-      body {
-        background-image: url("/bg-desktop.png");
+    <style>
+      :root {
+        --background: hsl(18 100% 91%);
+        --primary: hsl(1, 100%, 79%);
+        --secondary: hsl(18 100% 97%);
+        --radius: 0.5rem;
       }
-    }
-  </style>
-</head>
 
-<body data-sveltekit-preload-data="hover">
-  <div style="display: contents">%sveltekit.body%</div>
-</body>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: system-ui, sans-serif;
+      }
 
+      html,
+      body {
+        height: 100dvh;
+        color: var(--primary);
+        background-color: var(--background);
+      }
+
+      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      @media (min-width: 768px) {
+        body {
+          background-image: url("/bg-desktop.png");
+        }
+      }
+    </style>
+  </head>
+
+  <body data-sveltekit-preload-data="hover">
+    <div style="display: contents">%sveltekit.body%</div>
+  </body>
 </html>

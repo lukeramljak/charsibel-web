@@ -14,6 +14,8 @@
     align-items: center;
     padding: 1rem;
     gap: 2rem;
+    margin: 0 auto;
+    max-width: 500px;
   }
 
   .logo {

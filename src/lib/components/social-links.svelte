@@ -113,16 +113,16 @@
     gap: 0.75rem;
     padding: 0.75rem 1rem;
     border-radius: var(--radius);
-    background-color: var(--background);
+    background-color: var(--secondary);
     font-weight: 700;
     text-decoration: none;
-    color: var(--primary);
+    color: var(--foreground);
     transition: all 150ms ease;
     box-shadow: 5px 5px var(--primary);
 
     &:hover {
       background-color: var(--primary);
-      color: var(--background);
+      color: var(--secondary);
       transform: translateY(-2px);
       box-shadow: 7px 7px var(--primary);
     }
