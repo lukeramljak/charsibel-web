@@ -119,6 +119,7 @@
     color: var(--foreground);
     transition: all 150ms ease;
     box-shadow: 5px 5px var(--primary);
+    min-width: 350px;
 
     &:hover {
       background-color: var(--primary);
