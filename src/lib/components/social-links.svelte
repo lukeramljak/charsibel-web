@@ -61,7 +61,6 @@
   ];
 </script>
 
-<!-- eslint-disable svelte/no-navigation-without-resolve -->
 <nav aria-label="Social links">
   <ul>
     {#each links as link (link.href)}
